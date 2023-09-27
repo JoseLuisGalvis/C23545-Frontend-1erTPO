@@ -983,6 +983,10 @@ span {
     .seccion_2_titulo h2 {
       font-size: 0.8em;
     }
+
+    #seccion3D {
+      height: 50vh;
+    }
   
     /* Seccion 3*/
     /* Seccion 4*/
@@ -1051,6 +1055,9 @@ span {
       font-size: 0.6em;
     }
   
+    #seccion3D {
+      height: 50vh;
+    }
   
     /* Seccion 3*/
     /* Seccion 4*/
