@@ -1,0 +1,1226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Roboto;
+    background-color: #ffff;
+}
+  
+.navbar {
+    position: fixed !important;
+    top: 0 !important;
+    margin: 0;
+    z-index: 3;
+}
+  
+span {
+    color: rgb(63, 245, 8);
+}
+  
+.container-fluid,
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+  
+.col-md-6,
+.col-md-12 {
+    padding-right: 0;
+    padding-left: 0;
+}
+  
+.col {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*****************************************/
+/* Estilo para las opciones del menú */
+
+.navbar a:hover {
+    color: #339217!important;
+    font-weight: bold; 
+    background-color: #f8f9fa;
+    border-radius:0.5em;
+}
+  
+
+.navbar a:active {
+    color: #3ff508!important;
+    background-color: #d5f5e6; 
+    font-weight: bold; 
+    border-radius:0.5em;
+}
+
+.clock {
+    width: 18%;
+}
+
+.clock p {
+    width: 100%;
+    color: #ffff;
+    font-weight: bold;
+    margin: 0 0 0.15em 1em;
+}
+
+#contador-visitas {
+    position: absolute;
+    bottom: 6%;
+    font-size:larger;
+    font-weight: bold;
+    text-shadow: 0 2px 2px #339217;
+}
+
+
+/***********   Seccion 1   *************************************/
+  
+.slider-wrap {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+  
+.single-slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    animation: slider-animation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    background-size: cover;
+}
+  
+#slide-1 {
+    background-image: url("../img/ba1.jpg");
+}
+  
+#slide-2 {
+    animation-delay: 15s;
+    background-image: url("../img/ba2.jpg");
+}
+  
+#slide-3 {
+    animation-delay: 30s;
+    background-image: url("../img/ba3.jpg");
+}
+
+@keyframes slider-animation {
+  
+    0% {
+      opacity: 0;
+    }
+  
+    45% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+}
+  
+  #seccion1 {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .col-md-12 {
+    padding: 0 !important;
+  }
+  
+  .seccion_1_titulo {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+  }
+  
+  .seccion_1_titulo h2 {
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffff;
+    text-shadow: 5px 10px 10px #000;
+  }
+  
+  .seccion_1_parrafo {
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    font-size: 1.4em;
+    color: #ffff;
+    text-align: right;
+    text-shadow: 5px 10px 10px #000;
+  }
+  
+  .seccion1_boton {
+    cursor: pointer;
+  }
+  
+  .seccion1_boton .boton1 {
+    position: absolute;
+    top: 75%;
+    right: 30%;
+    color: #ffff;
+    background: none;
+    border: 2px solid #ffff;
+    border-radius: 0.5em;
+    margin: 1em 0 0 0;
+    padding: 0.5em 1em;
+    box-shadow: 5px 10px 10px #000;
+  }
+  
+  .boton1 a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 700;
+  }
+  
+  .boton1 a:hover {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+  }
+  
+  .boton2 a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 700;
+  }
+  
+  .boton2 a:hover {
+    text-decoration: none;
+    color: rgb(116, 244, 5);
+    font-weight: 700;
+  }
+  
+  .seccion1_boton .boton1:hover {
+    color: #000;
+    font-weight: 700;
+    background: #ffff;
+    border: 2px solid #000;
+  }
+  
+  .seccion1_boton .boton2 {
+    position: absolute;
+    top: 75%;
+    right: 10%;
+    color: #ffff;
+    background: rgb(116, 244, 5);
+    border: 2px solid #ffff;
+    border-radius: 0.5em;
+    margin: 1em 0 0 0;
+    padding: 0.5em 1em;
+    box-shadow: 5px 10px 10px #000;
+  }
+  
+  
+  .seccion1_boton .boton2:hover {
+    color: rgb(116, 244, 5);
+    font-weight: 700;
+    background: #ffff;
+    border: 2px solid rgb(116, 244, 5);
+  }
+  
+  /**********   Seccion 2   *************************************/
+  #seccion2 {
+    height: 100vh;
+    text-align: center;
+    background: rgb(245, 241, 241);
+  }
+  
+  #seccion2A {
+    display: none;
+  }
+  
+  .seccion_2_titulo {
+    width: 100%;
+    font-size: 2em;
+    padding: 1em 0 0 0;
+    text-shadow: 0px 5px 10px #000;
+  }
+  
+  .seccion_2_titulo h2 {
+    font-size: 1em;
+    margin-top: 0.125em;
+    text-shadow: 0px 5px 10px #000;
+    animation: 3s slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
+  .seccion_2_titulo h2 {
+    transition: transform .2s;
+    /* Animation */
+  }
+  
+  .seccion_2_titulo h2:hover {
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    color: #33F708;
+  }
+  
+  .titulo {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .titulo:hover {
+    animation-name: moveCard;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  @keyframes moveCard {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-1em);
+    }
+  }
+  
+  .card {
+    margin: 5px;
+    background-color: #ffff;
+    align-items: center;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 1em 3em;
+    transition: transform .3s;
+    /* Animation */
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card img {
+    width: 100%;
+    align-items: center;
+    border-radius: 1em 3em 0 0;
+  }
+  
+  .card_body h4 {
+    text-align: left;
+    padding: 0.5em 0 0 0.7em;
+    text-decoration-color: #FFDB58;
+  }
+  
+  mark1 {
+    background: #ffdf6d;
+    padding: 0.3em;
+    border-radius: 0.5em;
+  }
+  
+  mark2 {
+    background: #05F6E8;
+    color: #ffff;
+    padding: 0.3em;
+    border-radius: 0.5em;
+  }
+  
+  mark3 {
+    background: #5A5D5D;
+    color: #ffff;
+    padding: 0.3em;
+    border-radius: 0.5em;
+  }
+  
+  mark4 {
+    background: #F70808;
+    color: #ffff;
+    padding: 0.3em;
+    border-radius: 0.5em;
+  }
+  
+  .card_body span {
+    padding: 0 0 0 0.8em;
+  }
+  
+  .card_body h1 {
+    text-align: left;
+    margin: 0.6em 0 0 0;
+    padding: 0 0.5em;
+    text-shadow: 1px 1px 1px #000, 1px 2px 1px #919191;
+  }
+  
+  .card_body p {
+    font-size: 0.83em;
+    text-align: justify;
+    margin-bottom: 1em;
+    padding: 1em;
+  }
+  
+  /**********   Seccion 3   *************************************/
+  #seccion3 {
+    display: flex;
+    background: rgb(211, 246, 147);
+    height: 100vh;
+    /* Añadir esta propiedad para que ocupe la altura completa del viewport */
+  }
+  
+  .seccion3_izquierda {
+    transition: transform .3s;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    height: 100vh;
+    /* Añadir esta propiedad para que ocupe la altura completa del contenedor */
+  }
+  
+  .seccion3_izquierda img {
+    width: 100%;
+    height: 100%;
+    /* Añadir esta propiedad para que la imagen ocupe la altura completa del contenedor */
+    object-fit: cover;
+    /* Añadir esta propiedad para ajustar la imagen al contenedor sin deformarla */
+  }
+  
+  .hover-galeria {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    color: #ffff;
+  
+    transform: scale(0);
+    background: rgb(59, 58, 58, 0.2);
+    transition: transform .5s;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 5px 8px 10px #000080;
+  }
+  
+  .seccion3_izquierda:hover .hover-galeria {
+    transform: scale(1);
+  }
+  
+  .seccion3_derecha {
+    width: 100%;
+    padding: 10em 2em;
+    overflow-y: auto;
+    /* Añadir esta propiedad para permitir el desplazamiento vertical si el contenido desborda */
+  }
+  
+  #seccion3D {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    background-color: #343A40;
+  }
+  
+  #seccion3D:hover {
+    background-color: #000080 !important;
+    text-shadow: 2px 6px 6px #fdfdfd;
+  }
+  
+  .seccion3_derecha_titulo h2 {
+    color: #ffff;
+  }
+  
+  .seccion3_derecha_parrafo {
+    text-align: justify;
+    color: #ffff;
+  }
+  
+  .seccion3_derecha_boton button {
+    color: #ffff;
+    font-size: 1em;
+    background: none;
+    cursor: pointer;
+    border: 1px solid #ffff;
+    border-radius: 0.5em;
+    margin: 1em 0 0 0;
+    padding: 0.7em 1.1em;
+    box-shadow: 5px 8px 10px #919191;
+  }
+  
+  .seccion3_derecha_boton button:hover {
+    color: rgb(59, 58, 58);
+    font-size: 1em;
+    font-weight: 700;
+    background: #ffff;
+    cursor: pointer;
+  }
+  
+  .seccion3_derecha_boton a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 700;
+  }
+  
+  .seccion3_derecha_boton a:hover {
+    text-decoration: none;
+    color: rgb(59, 58, 58);
+    font-weight: 700;
+  }
+  
+  /**********   Seccion 4   *************************************/
+  
+  .encabezado_F {
+    width: 100%;
+  }
+  
+  .seccion_4_titulo1 h3 {
+    transition: transform .2s;
+    /* Animation */
+  }
+  
+  .seccion_4_titulo1 h3:hover {
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    color: #33F708;
+    text-shadow: 5px 10px 10px #000;
+  }
+  
+  form {
+    width: 50%;
+  }
+  
+  .person input {
+    font-size: 0.9em;
+    margin: 0.25em !important;
+    padding: 0.25em 0.4em !important;
+  }
+  
+  footer {
+    background-color: #000097;
+  }
+  
+  #nombrepersona,
+  #apellidopersona,
+  #comment {
+    background-color: #e9f3db;
+    border: 3px solid #ffff;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05), 0 0 8px rgba(255, 255, 255, 0.6), 0 3px 3px rgba(0, 0, 0, 0.2),
+      0 1px 1px rgba(0, 0, 0, 0.05), 0 0 8px rgba(255, 255, 255, 0.6), 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  #nombrepersona:active,
+  #apellidopersona:active,
+  #comment:active {
+    background-color: rgb(231, 247, 250);
+  }
+  
+  .form-group p {
+    width: 100%;
+    text-align: left;
+  }
+  
+  form button {
+    color: #ffff !important;
+    background-color: #5E8B1D;
+  }
+  
+  form button:hover {
+    color: #ffff;
+    background-color: #a3f332;
+    font-weight: bold;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.4);
+  }
+  
+  /**********   Responsive   *************************************/
+  
+  /***********************************************/
+  
+  @media (max-width: 1620px) and (min-width: 1367px) {
+  
+    /* Seccion 1 */
+    #logo {
+      width: 4em;
+    }
+  
+    #titulo_barra h2 {
+      font-size: 1.2em;
+    }
+  
+    .seccion_1_parrafo {
+      width: 50%;
+      font-size: 1.4em;
+    }
+  
+    .seccion_1_titulo h2 {
+      font-size: 3em;
+    }
+  
+    .seccion1_boton .boton1 {
+      position: absolute;
+      top: 80%;
+      right: 20%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.5em;
+    }
+  
+    .boton1 a {
+      font-size: 1em;
+      font-weight: 500;
+    }
+  
+    .boton1 a:hover {
+      font-weight: 500;
+    }
+  
+    .boton2 a {
+      font-size: 1em;
+      font-weight: 500;
+    }
+  
+    .boton2 a:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton1:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton2 {
+      position: absolute;
+      top: 80%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.25em;
+    }
+  
+    .seccion1_boton .boton2:hover {
+      font-weight: 500;
+    }
+  
+    /* Seccion 2*/
+    /* Seccion 3*/
+    /* Seccion 4*/
+  }
+  
+  /********************************************************/
+  @media (max-width: 1366px) and (min-width: 1281px) {
+  
+    /* Seccion 1 */
+    #logo {
+      width: 4em;
+    }
+  
+    .seccion_1_titulo h2 {
+      font-size: 3em;
+    }
+  
+    #titulo_barra h2 {
+      font-size: 1.2em;
+    }
+  
+    .seccion_1_parrafo {
+      width: 50%;
+      font-size: 1.3em;
+    }
+  
+    .seccion1_boton .boton1 {
+      position: absolute;
+      top: 80%;
+      right: 22%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.5em;
+    }
+  
+    .boton1 a {
+      font-size: 1em;
+      font-weight: 500;
+    }
+  
+    .boton1 a:hover {
+      font-weight: 500;
+    }
+  
+    .boton2 a {
+      font-size: 1em;
+      font-weight: 500;
+    }
+  
+    .boton2 a:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton1:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton2 {
+      position: absolute;
+      top: 80%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.25em;
+    }
+  
+    .seccion1_boton .boton2:hover {
+      font-weight: 500;
+    }
+  
+    /* Seccion 2*/
+    /* Seccion 3*/
+    /* Seccion 4*/
+  }
+  
+  /********************************************************/
+  @media (max-width: 1280px) and (min-width: 1025px) {
+  
+    /* Seccion 1 */
+    #logo {
+      width: 4em;
+    }
+  
+    .seccion_1_titulo h2 {
+      font-size: 3em;
+    }
+  
+    #titulo_barra h2 {
+      font-size: 1.2em;
+    }
+  
+    .seccion_1_parrafo {
+      width: 60%;
+      font-size: 1.3em;
+    }
+  
+    .seccion1_boton .boton1 {
+      position: absolute;
+      top: 80%;
+      right: 25%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.5em;
+    }
+  
+    .boton1 a {
+      font-size: 15px;
+      font-weight: 500;
+    }
+  
+    .boton1 a:hover {
+      font-weight: 500;
+    }
+  
+    .boton2 a {
+      font-size: 15px;
+      font-weight: 500;
+    }
+  
+    .boton2 a:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton1:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton2 {
+      position: absolute;
+      top: 80%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.25em;
+    }
+  
+    .seccion1_boton .boton2:hover {
+      font-weight: 500;
+    }
+  
+    /* Seccion 2*/
+    /* Seccion 3*/
+    /* Seccion 4*/
+  
+  }
+  
+  /********************************************************/
+  @media (max-width: 1024px) and (min-width: 992px) {
+  
+    /* Seccion 1 */
+    #logo {
+      width: 4em;
+    }
+  
+    #titulo_barra h2 {
+      font-size: 1.2em;
+    }
+  
+    .seccion_1_titulo h2 {
+      font-size: 2.8em;
+    }
+  
+    .seccion_1_parrafo {
+      width: 60%;
+      font-size: 1.3em;
+    }
+  
+    .seccion1_boton .boton1 {
+      position: absolute;
+      top: 80%;
+      right: 25%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.5em;
+    }
+  
+    .boton1 a {
+      font-size: 15px;
+      font-weight: 500;
+    }
+  
+    .boton1 a:hover {
+      font-weight: 500;
+    }
+  
+    .boton2 a {
+      font-size: 15px;
+      font-weight: 500;
+    }
+  
+    .boton2 a:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton1:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton2 {
+      position: absolute;
+      top: 80%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.25em;
+    }
+  
+    .seccion1_boton .boton2:hover {
+      font-weight: 500;
+    }
+  
+    /* Seccion 2*/
+    /* Seccion 3*/
+    /* Seccion 4*/
+  
+  }
+  
+  /********************************************************/
+  @media (max-width: 991px) and (min-width: 801px) {
+  
+    /* Seccion 1 */
+    #logo {
+      width: 4em;
+    }
+  
+    #titulo_barra h2 {
+      font-size: 1.2em;
+    }
+  
+    .seccion_1_titulo h2 {
+      font-size: 2.5em;
+    }
+  
+    .seccion_1_parrafo {
+      width: 60%;
+      font-size: 1.2em;
+    }
+  
+    .seccion1_boton .boton1 {
+      position: absolute;
+      top: 80%;
+      right: 42%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.5em;
+    }
+  
+    .boton1 a {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  
+    .boton1 a:hover {
+      font-weight: 500;
+    }
+  
+    .boton2 a {
+      font-size: 14px;
+      font-weight: 500;
+    }
+  
+    .boton2 a:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton1:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton2 {
+      position: absolute;
+      top: 80%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.25em;
+    }
+  
+    .seccion1_boton .boton2:hover {
+      font-weight: 500;
+    }
+  
+    /* Seccion 2*/
+    /* Seccion 3*/
+    /* Seccion 4*/
+  
+  }
+  
+  /***********   Card en Horizontal   ***********/
+  
+  @media (max-width: 768px) {
+
+    .clock {
+        display: none!important;
+    }
+  
+    .custom-card {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .custom-card .card-img-top {
+      flex: 0 0 auto;
+      width: 40%;
+      max-height: 15%;
+      object-fit: cover;
+    }
+  
+    .custom-card .card-body {
+      flex: 0 0 auto;
+      width: 60%;
+      background-color: #f8f9fa;
+    }
+  
+    .seccion3_izquierda {
+      width: 100%;
+      height: 50vh !important;
+    }
+  
+  }
+  
+  /********************************************************/
+  @media (max-width: 800px) and (min-width: 641px) {
+  
+    /* Seccion 1 */
+    #logo {
+      width: 4em;
+    }
+  
+    #titulo_barra h2 {
+      font-size: 1.2em;
+    }
+  
+    .seccion_1_titulo h2 {
+      font-size: 2em;
+    }
+  
+    .seccion_1_parrafo {
+      width: 70%;
+      font-size: 1.1em;
+    }
+  
+    .seccion1_boton .boton1 {
+      position: absolute;
+      top: 80%;
+      right: 42%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.5em;
+    }
+  
+    .boton1 a {
+      font-size: 12px;
+      font-weight: 500;
+    }
+  
+    .boton1 a:hover {
+      font-weight: 500;
+    }
+  
+    .boton2 a {
+      font-size: 12px;
+      font-weight: 500;
+    }
+  
+    .boton2 a:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton1:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton2 {
+      position: absolute;
+      top: 80%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.25em;
+    }
+  
+    .seccion1_boton .boton2:hover {
+      font-weight: 500;
+    }
+  
+    /* Seccion 2 */
+    .seccion_2_titulo h2 {
+      font-size: 0.8em;
+    }
+  
+    /* Seccion 3*/
+    /* Seccion 4*/
+  
+  }
+  
+  /********************************************************/
+  @media screen and (max-width: 640px) and (min-width: 481px) {
+  
+    /* Seccion 1 */
+    .seccion_1_parrafo {
+      width: 80%;
+      font-size: 0.9em;
+    }
+  
+  
+    .seccion_1_titulo h2 {
+      font-size: 1.8em;
+    }
+  
+  
+    .seccion1_boton .boton1 {
+      position: absolute;
+      top: 80%;
+      right: 42%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.5em;
+    }
+  
+    .boton1 a {
+      font-size: 11px;
+      font-weight: 500;
+    }
+  
+    .boton1 a:hover {
+      font-weight: 500;
+    }
+  
+    .boton2 a {
+      font-size: 11px;
+      font-weight: 500;
+    }
+  
+    .boton2 a:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton1:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton2 {
+      position: absolute;
+      top: 80%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.25em;
+    }
+  
+    .seccion1_boton .boton2:hover {
+      font-weight: 500;
+    }
+  
+  
+    /* Seccion 2*/
+    .seccion_2_titulo h2 {
+      font-size: 0.6em;
+    }
+  
+  
+    /* Seccion 3*/
+    /* Seccion 4*/
+  
+  }
+  
+  /********************************************************/
+  @media (max-width:480px) {
+  
+  
+    /* Seccion 1 */
+  
+    .navbar {
+      width: 95%;
+    }
+  
+    .navbar-brand {
+      margin-right: 0.5rem;
+      font-size: 1rem;
+    }
+  
+    .navbar-brand img {
+      width: 3em;
+    }
+  
+    #logo {
+      width: 3em;
+    }
+  
+    #titulo_barra h2 {
+      font-size: 1.2em;
+    }
+  
+    .seccion_1_titulo h2 {
+      font-size: 1.6em;
+    }
+  
+    .seccion_1_parrafo {
+      width: 80%;
+      font-size: 0.9em;
+    }
+  
+    .seccion1_boton .boton1 {
+      position: absolute;
+      top: 80%;
+      right: 45%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.4em;
+    }
+  
+    .boton1 a {
+      font-size: 11px;
+      font-weight: 500;
+    }
+  
+    .boton1 a:hover {
+      font-weight: 500;
+    }
+  
+    .boton2 a {
+      font-size: 11px;
+      font-weight: 500;
+    }
+  
+    .boton2 a:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton1:hover {
+      font-weight: 500;
+    }
+  
+    .seccion1_boton .boton2 {
+      position: absolute;
+      top: 80%;
+      margin: 0.5em 0 0 0;
+      padding: 0.25em 0.25em;
+    }
+  
+    .seccion1_boton .boton2:hover {
+      font-weight: 500;
+    }
+  
+    /* Seccion 2 */
+    .seccion_2_titulo h2 {
+      font-size: 0.6em;
+    }
+  
+    .card img {
+      width: 100%;
+      align-items: center;
+      border-radius: 1em 0 0 2em;
+    }
+  
+    .card-body h6 {
+      font-size: 0.6em;
+      margin-top: 0.2em !important;
+    }
+  
+    .card-body p {
+      font-size: 0.5em;
+      margin-top: 0.2em !important;
+    }
+  
+    /* Seccion 3*/
+  
+    #seccion3D {
+      height: 50vh !important;
+    }
+  
+    .seccion3_derecha {
+      padding: 0.25em 1em;
+    }
+  
+    .seccion3_derecha_titulo h2 {
+      color: #ffff;
+      font-size: 1em !important;
+  
+    }
+  
+    .seccion3_derecha .my-4 {
+      margin: 0.15em !important;
+    }
+  
+    .seccion3_derecha_parrafo p {
+      font-size: 0.6em !important;
+      margin-bottom: 0.2 !important;
+    }
+  
+    .seccion3_derecha_boton button {
+      font-size: 0.6em !important;
+    }
+  
+    /* Seccion 4*/
+  
+    .seccion_4_titulo1 h3 {
+      font-size: 1em !important;
+    }
+  
+    .parrafo_F h6 {
+      font-size: 0.8em !important;
+    }
+  
+    .form-group label {
+      font-size: 0.9em;
+    }
+  
+    .person input {
+      font-size: 0.7em;
+    }
+  
+    .form-group textarea {
+      width: 90% !important;
+      font-size: 0.9em;
+    }
+  
+    .form-group p {
+      font-size: 0.7em;
+    }
+  
+    .menu_footer a {
+      font-size: 0.5em;
+    }
+  
+    .menu_footer a {
+      font-size: 0.5em;
+    }
+  
+    .menu_footer .mx-3 {
+      margin: 0.15em !important;
+    }
+  
+  }
