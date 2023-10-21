@@ -234,90 +234,90 @@
     </section>
     <!--   Seccion 5   -->
     <section class="container-fluid" id="seccion5">
-      <div class="row">
-        <div class="col">
-          <div class="descuentos">
-            <div class="d1" id="estudiante">
-              <h1>Estudiante</h1>
-              <p>Tienen un descuento</p>
-              <h3 class="zoom" id="porcentaje">80%</h3>
-              <p id="document"><b>* presentar documentación</b></p>
-            </div>
-            <div class="d2" id="trainee">
-              <h1>Trainee</h1>
-              <p>Tienen un descuento</p>
-              <h3 class="zoom" id="porcentaje">50%</h3>
-              <p id="document"><b>* presentar documentación</b></p>
-            </div>
-            <div class="d3" id="junior">
-              <h1>Junior</h1>
-              <p>Tienen un descuento</p>
-              <h3 class="zoom" id="porcentaje">15%</h3>
-              <p id="document"><b>* presentar documentación</b></p>
+          <div class="row">
+            <div class="col">
+              <div class="descuentos">
+                <div class="d1" id="estudiante">
+                  <h1>Estudiante</h1>
+                  <p>Tienen un descuento</p>
+                  <h3 class="zoom" id="porcentaje">80%</h3>
+                  <p id="document"><b>* presentar documentación</b></p>
+                </div>
+                <div class="d2" id="trainee">
+                  <h1>Trainee</h1>
+                  <p>Tienen un descuento</p>
+                  <h3 class="zoom" id="porcentaje">50%</h3>
+                  <p id="document"><b>* presentar documentación</b></p>
+                </div>
+                <div class="d3" id="junior">
+                  <h1>Junior</h1>
+                  <p>Tienen un descuento</p>
+                  <h3 class="zoom" id="porcentaje">15%</h3>
+                  <p id="document"><b>* presentar documentación</b></p>
+                </div>
+              </div>
+              <div class="form2">
+                <div class="encabezado_F">
+                    <div class="seccion_5_titulo1"> VENTA</div>
+                    <div class="seccion_5_titulo2"> 
+                        <h1>VALOR DE TICKET:<span>$ 200.00</span></h1>
+                    </div>
+                </div>
+                <form id="miForm">
+                  <div class="body_form1">
+                    <input type="text" name="nombres" id="nombres" placeholder="Nombres" size=40>
+                    <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" size=40>
+                  </div>
+                  <div class="body_form2">
+                    <input type="email" name="correo" id="correo" placeholder="Correo" size=40>
+                  </div>
+                  <div class="body_form3">
+                    <div class="body_form_cantidad">
+                      <!-- Cantidad -->
+                      <input type="number" name="cantidad" id="cantidad" placeholder="Cantidad" size=40>
+                    </div>
+                    <div class="body_form_categoria">
+                      <!-- Categoría -->
+                      <input type="text" name="categoria" id="categoria" placeholder="Categoría" list="miLista" size=40>
+                      <datalist id="miLista">
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="Trainee">Trainee</option>
+                        <option value="Junior">Junior</option>
+                      </datalist>
+                    </div>
+                  </div>
+                  <div id="montoPagar">
+                    <p><b>Total a Pagar: $</b></p>
+                  </div>
+                  <div class="buttons">
+                    <div class="resumen">
+                      <input type="button" value="Resumen" onclick="montoAPagar()">
+                    </div>
+                    <div class="borrar">
+                      <input type="reset" id="delete" value="Borrar" onclick="limpiar()">
+                    </div>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
-          <div class="form2">
-            <div class="encabezado_F">
-                <div class="seccion_5_titulo1"> VENTA</div>
-                <div class="seccion_5_titulo2"> 
-                    <h1>VALOR DE TICKET:<span>$ 200.00</span></h1>
-                </div>
-            </div>
-            <form id="miForm">
-              <div class="body_form1">
-                <input type="text" name="nombres" id="nombres" placeholder="Nombres" size=40>
-                <input type="text" name="apellidos" id="apellidos" placeholder="Apellidos" size=40>
+          <!-- Contenido del footer -->
+          <footer id="footer" class="text-center d-flex align-items-center justify-content-center text-white" style="height: 10vh;">
+              <div>
+                  <ul
+                      class="menu_footer d-flex flex-wrap flex-row justify-content-center align-items-center list-unstyled text-white">
+                      <li class="mx-3"><a class="text-decoration-none text-white" href="#">Preguntas
+                          Frecuentes</a></li>
+                      <li class="mx-3"><a class="text-decoration-none text-white" href="#">Contáctanos</a></li>
+                      <li class="mx-3"><a class="text-decoration-none text-white" href="#">Prensa</a></li>
+                      <li class="mx-3"><a class="text-decoration-none text-white" href="#">Conferencias</a></li>
+                      <li class="mx-3"><a class="text-decoration-none text-white" href="#">Términos y
+                          Condiciones</a></li>
+                      <li class="mx-3"><a class="text-decoration-none text-white" href="#">Privacidad</a></li>
+                      <li class="mx-3"><a class="text-decoration-none text-white" href="#">Estudiantes</a></li>
+                  </ul>
               </div>
-              <div class="body_form2">
-                <input type="email" name="correo" id="correo" placeholder="Correo" size=40>
-              </div>
-              <div class="body_form3">
-                <div class="body_form_cantidad">
-                  <!-- Cantidad -->
-                  <input type="number" name="cantidad" id="cantidad" placeholder="Cantidad" size=40>
-                </div>
-                <div class="body_form_categoria">
-                  <!-- Categoría -->
-                  <input type="text" name="categoria" id="categoria" placeholder="Categoría" list="miLista" size=40>
-                  <datalist id="miLista">
-                    <option value="Estudiante">Estudiante</option>
-                    <option value="Trainee">Trainee</option>
-                    <option value="Junior">Junior</option>
-                  </datalist>
-                </div>
-              </div>
-              <div id="montoPagar">
-                <p><b>Total a Pagar: $</b></p>
-              </div>
-              <div class="buttons">
-                <div class="resumen">
-                  <input type="button" value="Resumen" onclick="montoAPagar()">
-                </div>
-                <div class="borrar">
-                  <input type="reset" id="delete" value="Borrar" onclick="limpiar()">
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-      <!-- Contenido del footer -->
-      <footer id="footer" class="text-center d-flex align-items-center justify-content-center text-white" style="height: 10vh;">
-          <div>
-              <ul
-                  class="menu_footer d-flex flex-wrap flex-row justify-content-center align-items-center list-unstyled text-white">
-                  <li class="mx-3"><a class="text-decoration-none text-white" href="#">Preguntas
-                      Frecuentes</a></li>
-                  <li class="mx-3"><a class="text-decoration-none text-white" href="#">Contáctanos</a></li>
-                  <li class="mx-3"><a class="text-decoration-none text-white" href="#">Prensa</a></li>
-                  <li class="mx-3"><a class="text-decoration-none text-white" href="#">Conferencias</a></li>
-                  <li class="mx-3"><a class="text-decoration-none text-white" href="#">Términos y
-                      Condiciones</a></li>
-                  <li class="mx-3"><a class="text-decoration-none text-white" href="#">Privacidad</a></li>
-                  <li class="mx-3"><a class="text-decoration-none text-white" href="#">Estudiantes</a></li>
-              </ul>
-          </div>
-      </footer>
+          </footer>
     </section>
   </main>
   <!-- Optional JavaScript; choose one of the two! -->
