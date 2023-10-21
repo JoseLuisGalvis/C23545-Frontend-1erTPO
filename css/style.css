@@ -16,10 +16,6 @@ body {
     z-index: 3;
 }
   
-span {
-    color: rgb(63, 245, 8);
-}
-  
 .container-fluid,
 .row {
     padding: 0 !important;
@@ -74,7 +70,9 @@ span {
     text-shadow: 0 2px 2px #339217;
 }
 
-
+#boleto {
+  color: #3ff508!important;
+}
 /***********   Seccion 1   *************************************/
   
 .slider-wrap {
@@ -635,38 +633,43 @@ span {
 }
 
 .seccion_5_titulo2 {
-    font-size: 1.4em;
-    margin-top: 0.125em;
-    text-shadow: 0px 5px 10px #000;
-    padding: 0 0 1em 0;
-    transition: width .3s, height .3s, transform .3s; /* Aumentamos la anchura y altura durante 2 segundos */
+  font-size: 1.4em;
+  margin-top: 0.125em;
+  text-shadow: 0px 5px 10px #000;
+  padding: 0 0 1em 0;
+  transition: width .3s, height .3s, transform .3s; /* Aumentamos la anchura y altura durante 2 segundos */
 }
 
 .seccion_5_titulo2 h1 {
-    animation: 3s slidein1;
+  animation: 3s slidein1;
 }
 
 @keyframes slidein1 {
 
-    from {
-        margin-left: 100%;
-        width: 300%
-    }
-    
-    to {
-        margin-left: 0%;
-        width: 100%;
-    }
+  from {
+      margin-left: 100%;
+      width: 300%
+  }
+  
+  to {
+      margin-left: 0%;
+      width: 100%;
+  }
 
+}
+
+.efecto {
+  color: #212529!important;
 }
 
 .seccion_5_titulo2 h1 span {
-    transition: transform .2s; /* Animation */
+  transition: transform .2s; /* Animation */
+  cursor: pointer;
 }
 
 .seccion_5_titulo2 h1 span:hover {
-    transform : scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    color: #33F708;
+  transform : scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  color: #33F708;
 }
 
 .form2 {
@@ -1491,11 +1494,9 @@ span {
       font-size: 0.9em;
     }
   
-  
     .seccion_1_titulo h2 {
       font-size: 1.8em;
     }
-  
   
     .seccion1_boton .boton1 {
       position: absolute;
