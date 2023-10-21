@@ -693,6 +693,11 @@ span {
     border-radius: 0.3em;
 }
 
+.body_form1 {
+  display: flex;
+  justify-content: center;
+}
+
 .body_form1 input {
     width: 16.8em;
     background:#def7ff;
