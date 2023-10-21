@@ -33,3 +33,7 @@ function montoAPagar() {
         document.getElementById("montoPagar").innerHTML = "  Total a Pagar: $ " + montoPagar.toFixed(2) + " pesos.";
 
 }
+
+function limpiar() {
+    document.getElementById("montoPagar").innerHTML="Total a Pagar: $";
+}
