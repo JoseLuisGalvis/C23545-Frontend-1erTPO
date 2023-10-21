@@ -1524,7 +1524,8 @@ span {
     .d1, .d2, .d3 {
         width: 5.5em;
         height: 5.5em;
-        margin: 0 0.5em 0 0;
+        margin: 0 0.25em 0 0;
+        padding: 0.25em;
     }
     
     .d1 h1, .d2 h1, .d3 h1 {
