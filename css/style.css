@@ -1522,23 +1522,28 @@ span {
     }
     
     .d1, .d2, .d3 {
-        width: 9em;
-        height: 9em;
+        width: 5.5em;
+        height: 5.5em;
+        margin: 0 0.5em 0 0;
     }
     
     .d1 h1, .d2 h1, .d3 h1 {
-        font-size: 1.2em;
-        margin-top: 0.25em;
-    }
+      font-size: 1em;
+      margin-top: 0.125em;
+  }
     
     #porcentaje {
-        font-size: 1.1em;
+        font-size: 0.9em;
         margin: 0 0 0.125em 0;
     }
 
     .d1 p, .d2 p, .d3 p {
-        font-size: 0.9em;
-        margin-bottom: 0.25em;
+        font-size: 0.7em;
+        margin-bottom: 0.125em;
+    }
+
+    .seccion_5_titulo1 {
+      font-size: 1.2em;
     }
     
     .seccion_5_titulo2 {
@@ -1546,19 +1551,19 @@ span {
     }
 
     .seccion_5_titulo2 h1 {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
     .body_form1 input {
-        width: 12em;
+        width: 10em;
     }
     
     .body_form2 input {
-        width: 25em;
+        width: 20em;
     }
     
     .body_form3 input {
-        width: 12em;
+        width: 10em;
     }
     
     .body_form3 input:hover {
