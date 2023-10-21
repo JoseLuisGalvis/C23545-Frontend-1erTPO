@@ -1518,7 +1518,7 @@ span {
 
     /* Seccion 5 */
     .descuentos {
-        height: 25vh;
+        height: 20vh;
     }
     
     .d1, .d2, .d3 {
@@ -1548,7 +1548,8 @@ span {
     }
 
     .seccion_5_titulo1 {
-      font-size: 1.2em;
+      font-size: 1.1em;
+      padding: 0.1em 0 0 0;
     }
     
     .seccion_5_titulo2 {
@@ -1556,7 +1557,7 @@ span {
     }
 
     .seccion_5_titulo2 h1 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     .body_form1 input {
@@ -1588,21 +1589,21 @@ span {
     }
     
     .body_form1 input {
-        font-size: 0.9em;
-        margin: 0.4em;
-        padding: 0.2em;
+        font-size: 0.7em;
+        margin: 0.2em 0.4em;
+        padding: 0.1em;
     }
     
     .body_form2 input {
-        font-size: 0.9em;
-        margin: 0.4em;
-        padding: 0.2em;
+      font-size: 0.7em;
+      margin: 0.2em 0.4em;
+      padding: 0.1em;
     }
     
     .body_form3 input {
-        font-size: 0.9em;
-        margin: 0.4em;
-        padding: 0.2em;
+      font-size: 0.7em;
+      margin: 0.2em 0.4em;
+      padding: 0.1em;
     }
     
     #montoPagar p {
@@ -1612,9 +1613,9 @@ span {
     }
     
     .buttons input {
-        font-size: 1em;
+        font-size: 0.9em;
         margin: 0.5em;
-        padding: 0.5em;
+        padding: 0.4em;
     }
   
   }
