@@ -1529,7 +1529,7 @@ span {
     }
     
     .d1 h1, .d2 h1, .d3 h1 {
-      font-size: 1em;
+      font-size: 0.9em;
       margin-top: 0.125em;
   }
     
@@ -1539,8 +1539,12 @@ span {
     }
 
     .d1 p, .d2 p, .d3 p {
-        font-size: 0.7em;
+        font-size: 0.5em;
         margin-bottom: 0.125em;
+    }
+
+    #document {
+      font-size: 0.4em;
     }
 
     .seccion_5_titulo1 {
@@ -1556,15 +1560,15 @@ span {
     }
 
     .body_form1 input {
-        width: 10em;
+        width: 8em;
     }
     
     .body_form2 input {
-        width: 20em;
+        width: 16em;
     }
     
     .body_form3 input {
-        width: 10em;
+        width: 8em;
     }
     
     .body_form3 input:hover {
@@ -1572,7 +1576,7 @@ span {
     }
     
     #montoPagar {
-        width: 25em;
+        width: 20em;
         font-size: 0.9em;
         margin: 0.4em 0 0.4em 0.5em;
         padding: 0.3em 0 0.3em 0.6em;
@@ -1580,7 +1584,7 @@ span {
     }
     
     .buttons input {
-        width: 11em;
+        width: 8em;
     }
     
     .body_form1 input {
