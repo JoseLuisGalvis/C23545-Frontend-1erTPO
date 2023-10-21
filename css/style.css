@@ -1167,7 +1167,108 @@ span {
     /* Seccion 2*/
     /* Seccion 3*/
     /* Seccion 4*/
+        /* Seccion 5 */
+        .descuentos {
+          height: 20vh;
+      }
+        
+      .d1, .d2, .d3 {
+          width: 6em;
+          height: 6em;
+          margin: 0 0.25em 0 0;
+          padding: 0.25em;
+      }
+        
+      .d1 h1, .d2 h1, .d3 h1 {
+          font-size: 0.9em;
+          margin-top: 0.125em;
+          margin-bottom: 0.125em;
+      }
+        
+      #porcentaje {
+          font-size: 0.9em;
+          margin: 0 0 0.125em 0;
+      }
+    
+      .d1 p, .d2 p, .d3 p {
+          font-size: 0.6em;
+          margin-bottom: 0.125em;
+      }
+    
+      #document {
+          font-size: 0.5em;
+      }
+    
+      .seccion_5_titulo1 {
+        font-size: 1.1em;
+        padding: 0.1em 0 0 0;
+      }
+      
+      .seccion_5_titulo2 {
+          padding: 0 0 0.25em 0;
+      }
   
+      .seccion_5_titulo2 h1 {
+          font-size: 1rem;
+      }
+  
+      .body_form1 input {
+          width: 11em;
+      }
+      
+      .body_form2 input {
+          width: 23em;
+      }
+      
+      .body_form3 input {
+          width: 11em;
+      }
+      
+      .body_form3 input:hover {
+          background: #edfffa;
+      }
+      
+      #montoPagar {
+          width: 18em;
+          font-size: 0.9em;
+          margin: 0.4em 0 0.4em 0.5em;
+          padding: 0.3em 0 0.3em 0.6em;
+          box-shadow: 0px 5px 10px #000;
+      }
+      
+      .buttons input {
+          width: 8em;
+      }
+      
+      .body_form1 input {
+          font-size: 0.7em;
+          margin: 0.2em 0.4em;
+          padding: 0.1em;
+      }
+      
+      .body_form2 input {
+          font-size: 0.7em;
+          margin: 0.2em 0.4em;
+          padding: 0.1em;
+      }
+      
+      .body_form3 input {
+          font-size: 0.7em;
+          margin: 0.2em 0.4em;
+          padding: 0.1em;
+      }
+      
+      #montoPagar p {
+          text-align: left;
+          margin: 0!important;
+          padding: 0.2em 0 0.2em 0.4em;
+      }
+      
+      .buttons input {
+          font-size: 0.9em;
+          margin: 0.5em;
+          padding: 0.4em;
+      }
   }
   
   /***********   Card en Horizontal   ***********/
@@ -1186,8 +1287,8 @@ span {
     .custom-card .card-img-top {
       flex: 0 0 auto;
       width: 40%;
-      max-height: 15%;
-      object-fit: cover;
+      /*max-height: 15%;
+      object-fit: cover;*/
     }
   
     .custom-card .card-body {
@@ -1276,6 +1377,108 @@ span {
   
     /* Seccion 3*/
     /* Seccion 4*/
+        /* Seccion 5 */
+        .descuentos {
+          height: 20vh;
+      }
+        
+      .d1, .d2, .d3 {
+          width: 6em;
+          height: 6em;
+          margin: 0 0.25em 0 0;
+          padding: 0.25em;
+      }
+        
+      .d1 h1, .d2 h1, .d3 h1 {
+          font-size: 0.9em;
+          margin-top: 0.125em;
+          margin-bottom: 0.125em;
+      }
+        
+      #porcentaje {
+          font-size: 0.9em;
+          margin: 0 0 0.125em 0;
+      }
+    
+      .d1 p, .d2 p, .d3 p {
+          font-size: 0.6em;
+          margin-bottom: 0.125em;
+      }
+    
+      #document {
+          font-size: 0.5em;
+      }
+    
+      .seccion_5_titulo1 {
+        font-size: 1.1em;
+        padding: 0.1em 0 0 0;
+      }
+      
+      .seccion_5_titulo2 {
+          padding: 0 0 0.25em 0;
+      }
+  
+      .seccion_5_titulo2 h1 {
+          font-size: 1rem;
+      }
+  
+      .body_form1 input {
+          width: 11em;
+      }
+      
+      .body_form2 input {
+          width: 23em;
+      }
+      
+      .body_form3 input {
+          width: 11em;
+      }
+      
+      .body_form3 input:hover {
+          background: #edfffa;
+      }
+      
+      #montoPagar {
+          width: 18em;
+          font-size: 0.9em;
+          margin: 0.4em 0 0.4em 0.5em;
+          padding: 0.3em 0 0.3em 0.6em;
+          box-shadow: 0px 5px 10px #000;
+      }
+      
+      .buttons input {
+          width: 8em;
+      }
+      
+      .body_form1 input {
+          font-size: 0.7em;
+          margin: 0.2em 0.4em;
+          padding: 0.1em;
+      }
+      
+      .body_form2 input {
+          font-size: 0.7em;
+          margin: 0.2em 0.4em;
+          padding: 0.1em;
+      }
+      
+      .body_form3 input {
+          font-size: 0.7em;
+          margin: 0.2em 0.4em;
+          padding: 0.1em;
+      }
+      
+      #montoPagar p {
+          text-align: left;
+          margin: 0!important;
+          padding: 0.2em 0 0.2em 0.4em;
+      }
+      
+      .buttons input {
+          font-size: 0.9em;
+          margin: 0.5em;
+          padding: 0.4em;
+      }
   
   }
   
@@ -1347,12 +1550,116 @@ span {
   
     /* Seccion 3*/
     /* Seccion 4*/
+    .form-group {
+        width: 100%;
+    }
+    /* Seccion 5 */
+    .descuentos {
+        height: 20vh;
+    }
+      
+    .d1, .d2, .d3 {
+        width: 6em;
+        height: 6em;
+        margin: 0 0.25em 0 0;
+        padding: 0.25em;
+    }
+      
+    .d1 h1, .d2 h1, .d3 h1 {
+        font-size: 0.9em;
+        margin-top: 0.125em;
+        margin-bottom: 0.125em;
+    }
+      
+    #porcentaje {
+        font-size: 0.9em;
+        margin: 0 0 0.125em 0;
+    }
   
+    .d1 p, .d2 p, .d3 p {
+        font-size: 0.6em;
+        margin-bottom: 0.125em;
+    }
+  
+    #document {
+        font-size: 0.5em;
+    }
+  
+    .seccion_5_titulo1 {
+      font-size: 1.1em;
+      padding: 0.1em 0 0 0;
+    }
+    
+    .seccion_5_titulo2 {
+        padding: 0 0 0.25em 0;
+    }
+
+    .seccion_5_titulo2 h1 {
+        font-size: 1rem;
+    }
+
+    .body_form1 input {
+        width: 11em;
+    }
+    
+    .body_form2 input {
+        width: 23em;
+    }
+    
+    .body_form3 input {
+        width: 11em;
+    }
+    
+    .body_form3 input:hover {
+        background: #edfffa;
+    }
+    
+    #montoPagar {
+        width: 18em;
+        font-size: 0.9em;
+        margin: 0.4em 0 0.4em 0.5em;
+        padding: 0.3em 0 0.3em 0.6em;
+        box-shadow: 0px 5px 10px #000;
+    }
+    
+    .buttons input {
+        width: 8em;
+    }
+    
+    .body_form1 input {
+        font-size: 0.7em;
+        margin: 0.2em 0.4em;
+        padding: 0.1em;
+    }
+    
+    .body_form2 input {
+        font-size: 0.7em;
+        margin: 0.2em 0.4em;
+        padding: 0.1em;
+    }
+    
+    .body_form3 input {
+        font-size: 0.7em;
+        margin: 0.2em 0.4em;
+        padding: 0.1em;
+    }
+    
+    #montoPagar p {
+        text-align: left;
+        margin: 0!important;
+        padding: 0.2em 0 0.2em 0.4em;
+    }
+    
+    .buttons input {
+        font-size: 0.9em;
+        margin: 0.5em;
+        padding: 0.4em;
+    }
+
   }
   
   /********************************************************/
   @media (max-width:480px) {
-  
   
     /* Seccion 1 */
   
@@ -1431,9 +1738,14 @@ span {
     .seccion_2_titulo h2 {
       font-size: 0.6em;
     }
+
+    .card {
+      max-height: 130px; 
+  }
   
     .card img {
       width: 100%;
+      max-height: 130px;
       align-items: center;
       border-radius: 1em 0 0 2em;
     }
@@ -1444,7 +1756,7 @@ span {
     }
   
     .card-body p {
-      font-size: 0.5em;
+      font-size: 0.6em;
       margin-top: 0.2em !important;
     }
   
@@ -1486,6 +1798,10 @@ span {
     .parrafo_F h6 {
       font-size: 0.8em !important;
     }
+
+    form {
+      width: 80%;
+    }
   
     .form-group label {
       font-size: 0.9em;
@@ -1522,8 +1838,8 @@ span {
     }
     
     .d1, .d2, .d3 {
-        width: 5.5em;
-        height: 5.5em;
+        width: 6em;
+        height: 6em;
         margin: 0 0.25em 0 0;
         padding: 0.25em;
     }
@@ -1531,6 +1847,7 @@ span {
     .d1 h1, .d2 h1, .d3 h1 {
       font-size: 0.9em;
       margin-top: 0.125em;
+      margin-bottom: 0.125em;
   }
     
     #porcentaje {
@@ -1539,12 +1856,12 @@ span {
     }
 
     .d1 p, .d2 p, .d3 p {
-        font-size: 0.5em;
+        font-size: 0.6em;
         margin-bottom: 0.125em;
     }
 
     #document {
-      font-size: 0.4em;
+      font-size: 0.5em;
     }
 
     .seccion_5_titulo1 {
@@ -1561,15 +1878,15 @@ span {
     }
 
     .body_form1 input {
-        width: 8em;
+        width: 11em;
     }
     
     .body_form2 input {
-        width: 16em;
+        width: 23em;
     }
     
     .body_form3 input {
-        width: 8em;
+        width: 11em;
     }
     
     .body_form3 input:hover {
@@ -1577,7 +1894,7 @@ span {
     }
     
     #montoPagar {
-        width: 20em;
+        width: 18em;
         font-size: 0.9em;
         margin: 0.4em 0 0.4em 0.5em;
         padding: 0.3em 0 0.3em 0.6em;
